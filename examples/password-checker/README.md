@@ -23,13 +23,13 @@ Because the validity-checking and hashing functionality runs on the zkVM, it gen
 
 The main program that calls a method in the guest zkVM is in [src/main.rs](src/main.rs).
 The code that runs inside the zkVM is in [`methods/guest/src/bin/pw_checker.rs`](methods/guest/src/bin/pw_checker.rs).
-The rest of the project is build support.
+The rest of the project is to build support.
 
 For the main RISC Zero project, see [here](https://github.com/risc0/risc0).
 
 ## And now, some fine print
 
-This is example code meant to illustrate the fundamentals of programming with the zkVM. The password policy (and broader protocol) implemented here is intended for educational purposes only.
+This is an example code meant to illustrate the fundamentals of programming with the zkVM. The password policy (and broader protocol) implemented here is intended for educational purposes only.
 
 ## Video Tutorial
 
